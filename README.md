@@ -7,3 +7,6 @@ docker run -it -d -p 2003:2003 --name devops szyrin/graphite
 docker ps  
 docker ps -a  
 telnet localhost 2003  
+
+curl -sSL https://get.docker.com/ | sh  
+service docker status
